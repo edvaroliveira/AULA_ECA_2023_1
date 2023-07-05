@@ -1,0 +1,17 @@
+algoritmo operacoes
+VAR
+    A,B,SOMA,SUB,MULT,DIV: REAL;
+INICIO
+    IMPRIMA("DIGITE O PRIMEIRO NÚMERO:");
+    LEIA(A);
+    IMPRIMA("DIGITE O SEGUNDO NÚMERO:");
+    LEIA(B);
+    SOMA <-- A+B;
+    SUB <-- A-B;
+    MULT <-- A*B;
+    DIV <-- A/B;
+    IMPRIMA("A SOMA DOS NÚMEROS É: ",SOMA);
+    IMPRIMA("A SUBTRAÇAO DOS NÚMEROS É: ",SUB);
+    IMPRIMA("A MULTIPLICACAO DOS NÚMEROS É: ",MULT);
+    IMPRIMA("A DIVISAO DOS NÚMEROS É: ",DIV);
+  FIM.

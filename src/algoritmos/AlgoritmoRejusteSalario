@@ -1,0 +1,10 @@
+algoritmo do ajuste salarial
+VAR
+salario, porcentagem, valorf: real;
+INICIO
+imprima ("informe o salario que sofrera o ajuste salarial de 15%");
+leia(salario);
+porcentagem<--(salario*15/100);
+valorf <-- (porcentagem + salario);
+imprima("o valor apos o reajuste e", valorf);
+FIM

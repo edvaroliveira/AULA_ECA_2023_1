@@ -1,0 +1,15 @@
+algoritmo media
+VAR
+ n1,n2,n3,n4,media:real;
+INICIO
+ escreva("digite a nota da primeira prova");
+ leia(n1);
+ escreva("digite a nota da segunda prova");
+ leia(n2);
+ escreva("digite a nota da terceira prova");
+ leia(n3);
+ escreva("digite a nota da quarta prova");
+ leia(n4);
+ media <-- (n1+n2+n3+n4)/4;
+ escreva("a media aritmetica é:", media);
+ fim.
